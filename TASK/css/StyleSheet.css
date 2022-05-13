@@ -1,0 +1,96 @@
+﻿* { padding: 0; margin: 0; } 
+body {font-family: 'Poppins', sans-serif;} 
+.container { max-width: 1280px; width: 100%; }
+input:focus{outline:none!important; box-shadow:none!important;border-bottom: 1px solid #ccc; } 
+button{background: #259609!important; color: #fff!important;border:none!important; box-shadow:none;} 
+button:focus{background: #259609!important; color: #fff!important;border:none!important;outline:none;box-shadow:none!important;} 
+button:hover{background: #259609!important; color: #fff!important;border:none!important;} 
+a:focus{box-shadow:none!important;} 
+a{text-decoration:none;} 
+.p-t-b50{padding:90px 0px;} 
+.mb-30{margin-bottom:30px;} 
+.navbar{background: #f8f9fa; border-bottom: 3px solid #4671D5;  z-index: 9;-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out; transition: background .5s ease-in-out,padding .5s ease-in-out; transition: 0.5s;} 
+#myNavbar .navbar-brand{margin: 0px 50px 0px 0px;}
+#myNavbar .navbar-brand img{width:100%;} 
+#myNavbar .navbar-nav .nav-link{padding: 8px 20px; background: #26960a; color: #fff; margin: 8px 0px; border-radius: 5px;}
+#myNavbar .navbar-nav .nav-link.active{color:#fff;} 
+#myNavbar .navbar-nav .nav-link:hover{color:#fff;}
+.myNavbar_list .dropdown-menu{margin-top: 7px; border-top-left-radius: 0px; border-top-right-radius: 0px;}
+.myNavbar_list .dropdown-submenu > .dropdown-menu{ overflow-x:hidden;overflow: scroll!important; max-height: 600px;}
+.myNavbar_list .dropdown-submenu > .dropdown-menu { top: 0; left: 100%; margin-top: -6px; margin-left: -1px; min-width: 350px; }
+.myNavbar_list .dropdown-menu>li>a { display: block; padding: 3px 20px; clear: both; font-weight: 400; line-height: 32px; color: #333; white-space: nowrap; position: relative; font-size: 14px; color: #5a5a5a; border-radius: 4px; border-left: 5px solid transparent; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom: 1px solid #f1f1f1; cursor: pointer; transition: .2s ease all; }
+.myNavbar_list .dropdown-menu>li>a .caret{display: inline-block; margin-left: 0.255em; vertical-align: 0.255em; content: ""; border-top: 0.3em solid; border-right: 0.3em solid transparent; border-bottom: 0; border-left: 0.3em solid transparent;transform: rotate(-90deg);}
+.myNavbar_list .dropdown-menu .dropdown-submenu li{margin: 10px; border: 1px solid #b7b7b736; padding: 20px!important;}
+.myNavbar_list .dropdown-menu .dropdown-submenu li a{padding:0; line-height:normal; font-size: initial; color: #333; border-radius: 0px; border-left: 0px solid transparent; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom: 0px solid #f1f1f1;  }
+.myNavbar_list .dropdown-menu .dropdown-submenu li img{max-width: 100px; margin-right: 20px; text-align: center;margin: 0px 0px 20px 0px;}
+.myNavbar_list .dropdown-menu .dropdown-submenu li div .h{white-space: initial; font-weight: 500; color: #26960a;}
+.myNavbar_list .dropdown-menu .dropdown-submenu li div .p_b{font-size: 14px; text-transform: initial; font-weight: 600; line-height: 20px; color: #37474f; white-space: normal; margin: 10px 0px 5px;}
+.myNavbar_list .dropdown-menu .dropdown-submenu li div .d_m{font-size:14px; color:#333;}
+
+.scroll_menu{display:none;position: fixed; top: 0px; left: 0; right: 0; padding: 10px 0px; background: #313131; border: none;}
+.scroll_menu .navbar-nav{margin-left:auto;}
+.scroll_menu .navbar-nav li a{color:#fff!important;padding: 7px; font-size: 16px;}
+.scroll_menu .navbar-nav li:last-child{margin-left:20px;}
+.scroll_menu .navbar-nav li:last-child a{background: #259609; color: #fff; border-radius: 5px; width: 190px; text-align: center; width: 100%; margin-right:20px;}
+.scroll_menu .navbar-brand img{width:100px;}
+
+.my_banner{background-image: url('../images/banner-img.png'); background-size: cover; padding: 80px 0px; min-height: 561px;}
+.my_banner h4{font-weight: 600; color:#fff; font-size: 30px;}
+.my_banner img{width: 200px;}
+.my_banner a{background: #259609; width: 260px; text-align: center; margin: 50px 0px; border-radius: 5px; padding: 14px; font-size: 20px; color: #fff; box-sizing: border-box; display: block;}
+
+#applyNow .modal-dialog{max-width: 45%;}
+#applyNow .modal-header{border:none;}
+#applyNow .modal-header .btn-close{border-radius: 50px; opacity: 1; position: relative; top: -20px; right: -20px; line-height: 10px; font-size: 20px;}
+#applyNow form h5{font-size: 21px; color: #000; text-align: center; text-transform: uppercase; margin: 0px auto 20px; font-weight: 600;}
+#applyNow form input, #applyNow form select{border: none; padding: 0px 16px; height: 58px; width: 100%; font-size: 14px; color: #000; border-bottom: 1px solid #ccc; border-radius:0px;}
+#applyNow form input[type=checkbox]{color: #fff!important; height: 18px!important; width: auto!important; padding: inherit!important; margin-right:10px;}
+#applyNow form button{text-transform: uppercase; margin: 15px auto 5px; width: 100%;background: #259609; color: #fff;font-weight: 500; border-radius: 0; font-size: 19px; padding: 7px;}
+
+.section1{padding:70px 0px; background: #f7f7f7;}
+.heading_para-btn{}
+.heading_para-btn >div{width: 60%;}
+.heading_para-btn >div h4{font-size: 40px; color:#333;}
+.heading_para-btn >div p{margin: 30px 30px 0px 0px; color: #7c7c7c; font-size: 16px;}
+.heading_para-btn button{padding: 15px 25px; border-radius: 5px;}
+.heading_para-btn button i{color:#fff; margin-right:5px;}
+.accordion{background: #f7f7f7 none repeat scroll 0 0; border-radius: 3px; box-shadow: 0 5px 30px 0 rgb(0 0 0 / 4%); margin-bottom: 0; padding: 30px 0px;}
+.accordion-header button{border-radius: 0; padding: 0; min-height: 88px; box-shadow: 2px 3px 5px #ededed!important; background: #fff!important; border: 5px solid #fff!important; font-size: 0.9rem;}
+.button_box{background: #259609; width: 170px; text-align: center; color: #fff; min-height: 50px; position: relative; padding: 18px 0px; margin: 0px; line-height: 22px;}
+.button_box span{color:#fff; font-size:13px;}
+.button_box p{margin:0; color:#fff; font-weight:600; font-size:25px;}
+.accordion-header button img{width: 62px!important; margin-right: 30px; margin-top: 8px; z-index: 1; margin-left: -43px; position: relative; height: 65px;}
+.accordion-main-heading{}
+.accordion-main-heading h5{display: block; font-size: 18px; font-weight: 600; padding:12px 5px 8px 0px; position: relative; transition: all 0.3s ease 0s; color:#333;}
+.accordion-main-heading p{font-size: 14px; font-weight: 200; margin:0; color:#333;}
+.accordion-main-heading p img{margin-right: 20px; width: auto!important; height: auto; margin-left: 0px; margin-top: 0px;}
+.accordion-button:not(.collapsed)::after{content: "+"; font-size:40px;font-weight: 700; background-image:none!important; color:#259609;}
+.accordion-button::after{content: "x"; font-size:40px;font-weight: 700; background-image:none!important; color:#259609; height:auto; width:auto;}
+.accordion-body{background: transparent none repeat scroll 0 0; border-top: medium none; padding: 20px 25px 10px 27px; position: relative; margin-left: 165px; border-left: 5px solid #26960a;}
+.accordion-body .accordion-button::after { content: "+"; font-size: 40px; font-weight: 700; background-image: none!important; color: #259609; height: auto; width: auto; }
+.accordion-body .accordion-button:not(.collapsed)::after { content: "x"; font-size: 40px; font-weight: 700; background-image: none!important; color: #259609; }
+.accordion-body h5{}
+.accordion-body ul{margin-bottom:15px;}
+.accordion-body ul li{background: #fff; border: 1px solid #f8f8f8; padding: 10px;}
+
+@media only screen and (max-width: 767px) {
+    .myNavbar_list .dropdown-submenu > .dropdown-menu{min-width:unset;}
+    .scroll_menu .navbar-nav li:last-child a{margin-left:0px;}
+    .scroll_menu .navbar-nav li:last-child{margin-right:0px; margin-left:0px;}
+    .accordion-body{margin-left:0px;}
+    .heading_para-btn >div{width:100%;}
+    .heading_para-btn >div p{margin: 30px 0px 20px 0px;}
+    .button_box{width:100px;}
+    .accordion-body{border-left: 3px solid #26960a; padding: 10px 10px 10px 10px;}
+    #applyNow .modal-dialog{max-width:100%;}
+
+}
+
+
+
+
+
+
+
+
+
